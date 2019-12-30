@@ -1,0 +1,57 @@
+/*文章列表*/
+a:hover{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.avatar img{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+.blog-list-item{
+    /*background: rgba(0,0,0,.06);*/
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid #adadad;
+    border-radius:5px;
+}
+.title{
+    padding-top: 15px;
+}
+.blog-list-item:hover{
+    /*background-color: rgba(0,0,0,.09);*/
+}
+.blog-list-item:last-child{
+    border-bottom: 0;
+}
+.blog-list-item:first-child{
+    padding-top: 0;
+}
+.blog-list-item .title{
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 15px;
+    color: black;
+}
+.blog-list-item .title:hover {
+    color: #9d9d9d;
+}
+.blog-list-item .info{
+    color: #9d9d9d;
+    font-size: 18px;
+}
+.blog-list-item .text{
+    width:100%;
+    font-size: 18px;
+    white-space:nowrap;       /* 使文本不可换行 */
+    overflow:hidden;          /* 隐藏溢出部分 */
+    text-overflow:ellipsis;   /* 显示省略符号来代表被隐藏的文本 */
+}

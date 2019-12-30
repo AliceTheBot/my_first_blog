@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>head</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        @font-face{
+            font-family:'T';
+            src:url('font/TrajanPro-Regular.otf');
+        }
+        @font-face{
+            font-family: 'R';
+            src:url('font/R-PMingLiU-TW-2.ttf');
+        }
+        body{
+            font-family:'T','R';
+
+        }
+        .navbar{
+            background-color: #fff;
+            color:#000000;
+        }
+        .navbar-list li:hover{
+            color: #555;
+            background-color: #e7e7e7;
+        }
+        .navbar-right li:active{
+            color: #555;
+            background-color: #e7e7e7;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <a class="navbar-brand" href="main_page">MY BLOG</a>
+        </div>
+
+        <div class="col-sm-offset-1" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-list">
+                <li id="head-article" class="navbar-list"><a href="main_page">ARTICLE</a></li>
+                <li id="head-timeline" class="navbar-list"><a href="time_line">TIMELINE</a></li>
+                <li id="head-sort" class="navbar-list"><a href="sort">SORT</a></li>
+                <li id="head-tag" class="navbar-list"><a href="tag">TAGS</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="head-login"><a href="login.html">SIGN IN</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    </script>
+
+</body>
+</html>

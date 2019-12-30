@@ -1,0 +1,77 @@
+@font-face{
+    font-family:'T';
+    src:url('../font/TrajanPro-Regular.otf');
+}
+@font-face {
+    font-family:'R';
+    src:url('../font/R-PMingLiU-TW-2.ttf');
+}
+body{
+    font-family: 'R', 'T';
+}
+/*选中文字效果*/
+::selection{
+    color:#fff;
+    background:#53595f;
+    text-shadow:none;
+}
+
+/*头图*/
+header.masthead{
+    margin-bottom:50px;
+    margin-top:0;
+    background: #525288  no-repeat scroll center center;
+    position:relative;
+    background-size:cover
+}
+header.masthead .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:#212529;
+    opacity:.5
+}
+header.masthead .site-heading{
+    padding:200px 0 150px;
+    color:#fff;
+}
+header.masthead .site-heading{
+    text-align:center;
+}
+header.masthead .site-heading h1{
+    font-size:50px;
+    margin-top:0;
+}
+header.masthead .site-heading .subheading{
+    font-size:24px;
+    font-weight:300;
+    line-height:1.1;
+    display:block;
+    margin:10px 0 0;
+    font-family: 'R', 'T', serif;
+}
+@media only screen and (min-width:768px){
+    header.masthead .site-heading{
+        padding:200px 0
+    }
+}
+@media only screen and (min-width:768px){
+    header.masthead .site-heading h1{
+        font-size:70px
+    }
+}
+
+.modal-footer{
+    margin: 50px 0 0;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border:0;
+    color: #6c757d;
+    font-size: 18px;
+}
+.footer-brand{
+    padding-top: 10px;
+    color: #000;
+}

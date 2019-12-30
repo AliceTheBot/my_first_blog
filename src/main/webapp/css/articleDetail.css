@@ -1,0 +1,40 @@
+#editormd-view{
+    font-size: 20px;
+}
+.pre-next-art a{
+    font-size: 20px;
+    color:#757575;
+    text-decoration: none;
+}
+.pre-next-art a:hover{
+    text-decoration: none;
+    color:#212121;
+}
+.art-info>span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+i{
+    padding-right: 5px;
+}
+.like button {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color:#6c757d;
+    border: 1px solid #6c757d;
+    margin-bottom: 50px;
+}
+.like button:hover{
+    background-color: #6c757d;
+    color:#fff;
+}
+.like button i{
+    padding-left: 5px;
+}
+
+.pre-next-art{
+    margin-top: 66px;
+}
