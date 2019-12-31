@@ -24,6 +24,10 @@
     <link href="css/articleList.css" rel="stylesheet">
     <link href="css/side.css" rel="stylesheet">
     <link href="css/articleDetail.css" rel="stylesheet">
+
+<%--    <script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>--%>
+<%--    <script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>--%>
+
     <style type="text/css">
         .img{
             height:50px;
@@ -215,8 +219,8 @@
         </address>
     </div><!--页尾结束-->
 
-    <script src="editormd/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<%--    <script src="editormd/jquery.min.js"></script>--%>
+<%--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>--%>
 
     <script src="editormd/lib/marked.min.js"></script>
     <script src="editormd/lib/prettify.min.js"></script>

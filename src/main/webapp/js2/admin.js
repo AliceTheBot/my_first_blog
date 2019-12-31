@@ -86,7 +86,7 @@ function delet_sort(hod,sort){
 	var recorder_parent = recorder.parentNode;
 	recorder_parent.removeChild(recorder);
 	//后台删除
-	var url = "AdminDataServlet?op=sort_delete"+"&&sort="+sort;
+	var url = "AdminDataServlet?op=sort_delete"+"&sort="+sort;
 	sendURL(url);	
 }
 
@@ -141,7 +141,7 @@ function delet_tag(hod,tag){
 	recorder_parent.removeChild(recorder);
 	
 	//后台删除
-	var url = "AdminDataServlet?op=tag_delete"+"&&tag="+tag;
+	var url = "AdminDataServlet?op=tag_delete"+"&tag="+tag;
 	sendURL(url)	
 }
 
@@ -177,7 +177,7 @@ function edit_tag(hod,tag){
 		input_t.setAttribute("disabled","disabled");
 		
 		//提交修改请求
-		var url = "AdminDataServlet?op=tag_update"+"&&old_tag="+temp_t+"&&new_tag="+input_t.value ;
+		var url = "AdminDataServlet?op=tag_update"+"&old_tag="+temp_t+"&new_tag="+input_t.value ;
 		sendURL(url);								
 	}
 }

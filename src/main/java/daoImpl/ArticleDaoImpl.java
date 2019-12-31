@@ -174,39 +174,6 @@ public class ArticleDaoImpl implements ArticleDao {
         return new_art;
     }
 
-    /**
-     * 将文章加到t_article_delet表
-     *
-     * @param a
-     * @return
-     */
-    private boolean addArticle_delet(Article a) {
-        String sql="INSERT INTO t_article_delet VALUES(?,?,?,?,?,?,?,?,?)";
-        int result=0;
-
-        try {
-            con=DBConnection.getConnection();
-            PreparedStatement statement=con.prepareStatement(sql);
-            statement.setInt(1,a.getId());
-            statement.setString(2,a.getTitle());
-            statement.setString(3,a.getAuthor());
-            statement.setString(4,a.getSort());
-            statement.setString(5,a.getTime());
-            statement.setInt(6,a.getStar());
-            statement.setInt(7,a.getComment());
-            statement.setInt(8,a.getVisit());
-            statement.setString(9,a.getContent());
-            result = statement.executeUpdate();
-            DBUtils.close(con,statement);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        if(result>0)
-            return true;
-        return false;
-    }
-
     public List getAllArticle() {
         List<Article> list = new <Article>ArrayList();
         String sql = "SELECT * FROM t_article";
@@ -368,27 +335,19 @@ public class ArticleDaoImpl implements ArticleDao {
     }
 
     public boolean deleteSort(String sort) {
-        String sql="SELECT * FROM t_article WHERE sort=?";
+        String sql=null;
         int result=0;
         try {
-            //先将要删除的article添加到delete表中
             con=DBConnection.getConnection();
-            PreparedStatement statement=con.prepareStatement(sql);
-            statement.setString(1,sort);
-            ResultSet rs=statement.executeQuery();
-            while(rs.next()){
-                Article article=new Article(rs.getInt("id"),rs.getString("title"),rs.getString("author"),rs.getString("sort"),
-                        rs.getString("time"), rs.getInt("star"),rs.getInt("comment"),rs.getInt("visit"),rs.getString("content") );
-                addArticle_delet(article);
-            }
-            //然后再删除
+            PreparedStatement statement;
+
             sql="DELETE FROM t_article WHERE sort=?";
 
             statement=con.prepareStatement(sql);
             statement.setString(1,sort);
             result=statement.executeUpdate();
 
-            DBUtils.close(con,statement,rs);
+            DBUtils.close(con,statement);
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -6,7 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b7c7ce7-b826-4ef1-87d5-fd882003032a" name="Default Changelist" comment="" />
+    <list default="true" id="8b7c7ce7-b826-4ef1-87d5-fd882003032a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoImpl/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoImpl/ArticleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet2/AdminDataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet2/AdminDataServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/article_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/article_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js2/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js2/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/daoImpl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/daoImpl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet2/AdminDataServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet2/AdminDataServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvntest01/WEB-INF/classes/daoImpl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvntest01/WEB-INF/classes/daoImpl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvntest01/WEB-INF/classes/servlet2/AdminDataServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvntest01/WEB-INF/classes/servlet2/AdminDataServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvntest01/article_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvntest01/article_detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvntest01/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvntest01/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvntest01/js2/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvntest01/js2/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvntest01/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvntest01/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvntest01/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvntest01/main.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +61,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -64,6 +86,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1V9zMX4cILpBbOM3u8fdVsbELGo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -76,7 +99,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -89,26 +112,26 @@
       <recent name="service" />
       <recent name="db" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\java" />
-      <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\Auber\IdeaProjects\mvntest01" />
-      <recent name="C:\Users\Auber\IdeaProjects" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="filter" />
       <recent name="utils" />
       <recent name="servlet2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\webapp\js" />
       <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\webapp\img" />
       <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\webapp\css2" />
       <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\webapp" />
       <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\java\filter" />
-      <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\webapp\js2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\java" />
+      <recent name="C:\Users\Auber\Desktop\mvntest01\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Auber\IdeaProjects\mvntest01" />
+      <recent name="C:\Users\Auber\IdeaProjects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,20 +254,68 @@
       <workItem from="1577365990328" duration="76839000" />
       <workItem from="1577628192677" duration="2551000" />
       <workItem from="1577630774392" duration="338000" />
-      <workItem from="1577631136441" duration="7022000" />
+      <workItem from="1577631136441" duration="10782000" />
+      <workItem from="1577687206929" duration="8290000" />
+      <workItem from="1577776212387" duration="3457000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/servlet2/AdminDataServlet.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="2" />
+          <line>57</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

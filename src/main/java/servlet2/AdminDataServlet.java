@@ -48,8 +48,6 @@ public class AdminDataServlet extends HttpServlet {
 			break;
 		
 		case "sort_update":
-//			String old_sort = StringUtils.pareCode(request.getParameter("old_sort"));
-//			String new_sort = StringUtils.pareCode(request.getParameter("new_sort"));
 			String old_sort = request.getParameter("old_sort");
 			String new_sort = request.getParameter("new_sort");
 			if(! old_sort.equals(new_sort)){
@@ -57,18 +55,18 @@ public class AdminDataServlet extends HttpServlet {
 			}
 			break;
 		case "sort_delete":
-			String sort = StringUtils.pareCode(request.getParameter("sort"));
+			String sort = request.getParameter("sort");
 			as.deleteSort(sort);
 			break;
 		case "tag_update":
-			String old_tag = StringUtils.pareCode(request.getParameter("old_tag"));			
-			String new_tag = StringUtils.pareCode(request.getParameter("new_tag"));
+			String old_tag = request.getParameter("old_tag");
+			String new_tag = request.getParameter("new_tag");
 			if (!old_tag.equals(new_tag)) {
 				as.updateTag(old_tag, new_tag);
 			}
 			break;
 		case "tag_delete":
-			String tag = StringUtils.pareCode(request.getParameter("tag"));
+			String tag = request.getParameter("tag");
 			as.deleteTag(tag);
 			break;
 		default:
