@@ -10,6 +10,4 @@
 
 ![img](https://github.com/kukc/my_first_blog/raw/master/readme_resource/wps5.jpg)
 
-后台直接用的原po的，所以就不贴图了
-
 //TODO： 等有空再补 readme
